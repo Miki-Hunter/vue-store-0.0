@@ -127,7 +127,7 @@ export default {
     // 获取商品详细信息
     getDetails(val) {
       this.$axios
-        .post("/api/product/getDetails", {
+        .post("/api/product/getDetails/", {
           productID: val
         })
         .then(res => {
@@ -140,7 +140,7 @@ export default {
     // 获取商品图片
     getDetailsPicture(val) {
       this.$axios
-        .post("/api/product/getDetailsPicture", {
+        .post("/api/product/getDetailsPicture/", {
           productID: val
         })
         .then(res => {
@@ -158,7 +158,7 @@ export default {
         return;
       }
       this.$axios
-        .post("/api/user/shoppingCart/addShoppingCart", {
+        .post("/api/user/shoppingCart/addShoppingCart/", {
           user_id: this.$store.getters.getUser.user_id,
           product_id: this.productID
         })
@@ -194,7 +194,7 @@ export default {
         return;
       }
       this.$axios
-        .post("/api/user/collect/addCollect", {
+        .post("/api/user/collect/addCollect/", {
           user_id: this.$store.getters.getUser.user_id,
           product_id: this.productID
         })
