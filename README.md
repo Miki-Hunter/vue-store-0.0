@@ -2,7 +2,7 @@
 
 > 这是本项目的前端，后端请移步到[项目后端](https://github.com/Miki-Hunter/-store-server-django)
 
-> 此即[原博主项目-前端](https://github.com/hai-27/vue-store)，用作备份。后端使用 django + drf 进行重构，前后端结合使用。
+> 此即[原博主项目-前端](https://github.com/hai-27/vue-store)，仅修改了url格式，用作备份。后端使用 django + drf 进行重构，前后端结合使用。
 
 > [原作者项目-后端](https://github.com/hai-27/store-server) node.js + Koa框架实现
 
