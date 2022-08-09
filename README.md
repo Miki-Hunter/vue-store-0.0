@@ -45,11 +45,11 @@
 ```
 1. Clone project
 
-git clone https://github.com/hai-27/vue-store.git
+git clone https://github.com/Miki-Hunter/vue-store-1.0.git
 
 2. Project setup
 
-cd vue-store
+cd vue-store-1.0
 npm install
 
 3. Compiles and hot-reloads for development
