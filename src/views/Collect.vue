@@ -39,7 +39,7 @@ export default {
   activated() {
     // 获取收藏数据
     this.$axios
-      .post("/api/user/collect/getCollect", {
+      .post("/api/user/collect/getCollect/", {
         user_id: this.$store.getters.getUser.user_id
       })
       .then(res => {
