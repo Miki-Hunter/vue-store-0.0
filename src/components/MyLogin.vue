@@ -95,7 +95,7 @@ export default {
         //如果通过校验开始登录
         if (valid) {
           this.$axios
-            .post("/api/users/login", {
+            .post("/api/users/login/", {
               userName: this.LoginUser.name,
               password: this.LoginUser.pass
             })
