@@ -45,7 +45,7 @@
 ```
 1. Clone project
 
-git clone https://github.com/Miki-Hunter/vue-store-1.0.git
+git clone https://github.com/Miki-Hunter/vue-store-0.0.git
 
 2. Project setup
 
